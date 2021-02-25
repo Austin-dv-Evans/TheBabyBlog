@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700;&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+html{
+  background-color: lightblue;
+}
+.App{
+  background-color: lightblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Akaya Kanadaka', cursive;
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 3px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #e135f1;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 16px;
+}
+.navbar a:hover {
+  color: #e135f1;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.deleteBtn{
+  margin-left: 90%;
+  border-radius: 6px;
+  padding: 1px;
+  transition: all 1s;
+}
+.deleteBtn:hover{
+  transform: scale(1.5);
+  background-color: #e135f1;
+  color: white;
+}
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #2600d1;
+  transition: all .3s;
+}
+.blog-preview:hover {
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  transform: scale(1.1);
+}
+.blog-preview h2 {
+  font-size: 25px;
+  color: #e135f1;
+  margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+.blog-title{
+  display: flex;
+  justify-content: center;
+  padding: 13px;
+  border: 6px #e135f1 ridge;
+  border-radius: 6px;
+}
+
+.blog-details h2 {
+  font-size: 40px;
+  color: #3548f1;
+  margin-bottom: 10px;
+}
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  background: #e135f1;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: crosshair;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #e135f1;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 3px solid rgb(122, 122, 122);
+  box-sizing: border-box;
+}
+.create button {
+  background: #e135f1;
+  color: white;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  cursor: cell;
+}

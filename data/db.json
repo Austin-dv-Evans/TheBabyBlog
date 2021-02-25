@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Ways to Co-Sleep Safely",
+      "body": "Be a light sleeper, use pillows for boundries, don't do drugs or drink lots of alcohol, have baby on top of you.",
+      "author": "Renee",
+      "id": 1
+    },
+    {
+      "title": "How to Dad: The First Few Months",
+      "body": "Support your wife, be there for your kid, play with them, change the dipers, start the bath, be present, have fun",
+      "author": "Austin",
+      "id": 2
+    },
+    {
+      "title": "Teething! 5 Things To Expect",
+      "body": "Everything goes in their mouth, you need to get some gel, it can take several weeks, comes and goes in phases, they come in two at a time!",
+      "author": "Renee",
+      "id": 3
+    },
+    {
+      "title": "The First Three Things to Feed Your Baby",
+      "body": "Peas, Apples, Bananas",
+      "author": "Renee",
+      "id": 4
+    }
+  ]
+}
